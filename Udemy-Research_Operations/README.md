@@ -17,14 +17,31 @@
 - Para revisar que se ha instalado correctamente: `glpsol —help`
 - Instalacion del framework PYOMO con Conda (en este caso en el entorno virutal *optimization*): `conda install -n "optimization" -c conda-forge pyomo`.
 
-## Hot to install PuLP (framework):
+## How to install PuLP (framework):
 - Basta con instalar las siguientes librerias de Python. Usando Conda (env *optimization*):
 	- Cython: `conda install -n optimization -c anaconda cython`.
         - PuLP: `conda install -n optimization -c conda-forge pulp`.
 
 
-## Intall Cbc (solver):
+## How to install Cbc (solver):
 
 > NOTA: Si lo instalas desde un entorno virtual activado, la libreria se instalara en dicho entorno virtual.
 - brew tap coin-or-tools/coinor
 - brew install cbc 
+
+
+## How to install IPOPT (non-linear solver):
+
+- Download [here.](https://www.coin-or.org/download/binary/Ipopt/)
+- Descomprimir por ejemplo en el *HOME* e incluir ejecutable en el path:
+```
+$ export PATH=$PATH:~/ipopt_3.10.1/bin/ipopt
+```
+
+## How to install Couenne (mixed-integer non-linear solver):
+
+- Download [here.](https://www.coin-or.org/download/binary/Couenne/)
+> NOTA: **No disponible para MacOs**.
+- Descomprimir por ejemplo en el *HOME* e incluir ejecutable en el path:
+```
+$ export PATH=$PATH:~/couenne/bin/couenne
