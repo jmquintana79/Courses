@@ -1,0 +1,8 @@
+README:
+
+D es un parameter, no una variable.
+
+En la solucion, en el ultimo constrain, la notacion "para todo i \ {A,B}" significa todos los nodos i excepto los nodos A y B (los extremos).
+
+Este ultimo constrein sirve para decir: "si en un nodo se entra, entonces en el nodo se tiene que salir". Con el sumatorio se tiene en cuenta la posibilidad de que entre 
+o salga de un nodo uno o mas de un path.

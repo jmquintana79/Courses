@@ -1,0 +1,8 @@
+name: optimization
+dependencies:
+  - python==3.7.0
+  - jupyter
+  - spyder-kernels==2.0.1
+  - pip
+  - pip:
+    - ortools

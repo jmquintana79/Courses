@@ -1,0 +1,10 @@
+README:
+
+Viendo el enunciado, las ecuaciones de CA y CB tienen terminos no dependientes de PA y PB. Esto quiere decir, que aunque la maquina no produca zapatos (PA=PB=0), las maquinas 
+generan un coste. 
+
+Por eso se introducen los variables binarias Beta que indican si la maquina esta apagada o encendida.
+
+M es un valor brutalmente grande para que se cumpla las condiciones independientemente de los valores de las Betas. 
+
+En este caso por tanto, los resultados seran aquellos valores de P y Beta que minizan C.
