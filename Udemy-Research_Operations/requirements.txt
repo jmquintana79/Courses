@@ -49,7 +49,7 @@ pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 ply==3.11
 prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1623189609245/work
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
-protobuf==3.18.1
+protobuf==3.18.3
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 PuLP @ file:///Users/runner/miniforge3/conda-bld/pulp_1633854588395/work
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
