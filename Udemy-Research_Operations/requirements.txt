@@ -7,7 +7,7 @@ async-generator==1.10
 attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 bleach @ file:///tmp/build/80754af9/bleach_1628110601003/work
-certifi==2021.10.8
+certifi==2022.12.7
 cffi==1.14.0
 cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
 Cython @ file:///opt/concourse/worker/volumes/live/a8b919bf-06b6-4be5-60d8-71d16518c421/volume/cython_1594833990717/work
