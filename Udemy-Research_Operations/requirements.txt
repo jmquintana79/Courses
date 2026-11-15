@@ -38,7 +38,7 @@ nbconvert @ file:///opt/concourse/worker/volumes/live/84c159ef-8fac-4372-7b64-25
 nbformat @ file:///tmp/build/80754af9/nbformat_1617383369282/work
 nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
 notebook @ file:///opt/concourse/worker/volumes/live/892ff7de-9439-4289-7f6c-3fa676ee1335/volume/notebook_1629205788418/work
-numpy==1.21.2
+numpy==1.22.0
 ortools==9.1.9490
 packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
 pandas==1.1.5
